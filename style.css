@@ -1,0 +1,120 @@
+body {
+
+    margin:0;
+    background:#111;
+    font-family:'VT323', monospace;
+
+}
+
+
+
+#startup {
+
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#0b0b0b;
+    color:#9cff9c;
+
+}
+
+
+
+.computer {
+
+    text-align:center;
+
+}
+
+
+
+h1 {
+
+    font-family:'Press Start 2P';
+    font-size:28px;
+
+}
+
+
+
+.loadingBar {
+
+    width:300px;
+    height:25px;
+    border:3px solid #9cff9c;
+    margin:20px auto;
+
+}
+
+
+
+#progress {
+
+    height:100%;
+    width:0%;
+    background:#9cff9c;
+
+}
+
+
+
+.mascot {
+
+    font-size:50px;
+
+}
+
+
+
+
+#desktop {
+
+    display:none;
+    height:100vh;
+    background:#8bd3ff;
+
+}
+
+
+
+.topbar {
+
+    background:#222;
+    color:white;
+    padding:10px;
+    display:flex;
+    justify-content:space-between;
+
+}
+
+
+
+.icons {
+
+    display:flex;
+    gap:30px;
+    padding:30px;
+
+}
+
+
+
+.icon {
+
+    background:white;
+    padding:20px;
+    text-align:center;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:35px;
+
+}
+
+
+
+.icon p {
+
+    font-size:20px;
+
+}
