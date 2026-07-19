@@ -69,10 +69,12 @@ h1 {
 
 
 #desktop {
-
     display:none;
     height:100vh;
-    background:#8bd3ff;
+    background-image:url("images/background.png");
+    background-size:cover;
+    background-position:center;
+}
 
 }
 
